@@ -1,6 +1,6 @@
 <?php
 if($_SERVER['REQUEST_METHOD'] != 'POST' ){
-    header("Location: form.html" );
+    header("Location: index.html" );
 }
 
 require 'phpmailer/PHPMailer.php';
